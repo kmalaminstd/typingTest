@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="grettingsCard">
+        <div class="head">
+            <h1>Welcome to the Typing game</h1>
+        </div>
+
+        <div class="rules">
+            <h3>Rules:</h3>
+            <p>Your time will be start when you click on the start button.Try to write word correctly for better score. </p>
+        </div>
+
+        <div class="end">
+            <p>Have a fun! 😃</p>
+            <button id="startBtn">Start Game</button>
+        </div>
+    </div>
+
+    
+
+    <div class="clearify"></div>
+
+    <div class="typingRes">
+        <p style="text-align: center;" id="close">close</p>
+        <p>Mistakse : <span class="mistake">0</span></p>
+        <p>Time : <span class="typeTime">20 sec</span></p>
+        <p>WPM : <span class="accurateWrd"></span></p>
+    </div>
+
+    <div class="typingCard">
+        
+        <h3>Type the text below</h3>
+
+        <div class="completeLine"></div>
+
+        <p class="typingWords"></p>
+
+        <textarea type="text" id="typedWord"></textarea>
+    </div>
+
+    <div class="clearify"></div>
+
+    
+   
+
+    <script type="module" src="./assets/js/main.js"></script>
+</body>
+</html>
